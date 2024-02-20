@@ -1,22 +1,23 @@
 <h1 align="center">
-  <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">
+  <img src="docs/logo.png" alt="Clash" width="200">
   <br>Clash<br>
 </h1>
+
 
 <h4 align="center">A rule-based tunnel in Go.</h4>
 
 <p align="center">
-  <a href="https://github.com/Dreamacro/clash/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/Dreamacro/clash/release.yml?branch=master&style=flat-square" alt="Github Actions">
+  <a href="https://github.com/pfugwtg/clash-core/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/pfugwtg/clash-core/release.yml?branch=master&style=flat-square" alt="Github Actions">
   </a>
-  <a href="https://goreportcard.com/report/github.com/Dreamacro/clash">
-    <img src="https://goreportcard.com/badge/github.com/Dreamacro/clash?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/pfugwtg/clash-core">
+    <img src="https://goreportcard.com/badge/github.com/pfugwtg/clash-core?style=flat-square">
   </a>
-  <img src="https://img.shields.io/github/go-mod/go-version/Dreamacro/clash?style=flat-square">
-  <a href="https://github.com/Dreamacro/clash/releases">
-    <img src="https://img.shields.io/github/release/Dreamacro/clash/all.svg?style=flat-square">
+  <img src="https://img.shields.io/github/go-mod/go-version/pfugwtg/clash-core?style=flat-square">
+  <a href="https://github.com/pfugwtg/clash-core/releases">
+    <img src="https://img.shields.io/github/release/pfugwtg/clash-core/all.svg?style=flat-square">
   </a>
-  <a href="https://github.com/Dreamacro/clash/releases/tag/premium">
+  <a href="https://github.com/pfugwtg/clash-core/releases/tag/premium">
     <img src="https://img.shields.io/badge/release-Premium-00b4f0?style=flat-square">
   </a>
 </p>
@@ -36,9 +37,52 @@ This is a general overview of the features that comes with Clash.
 
 *Some of the features may only be available in the [Premium core](https://dreamacro.github.io/clash/premium/introduction.html).*
 
+## Compile
+
+### Requirements
+
+- Go >= 1.20
+- make
+
+### Compile
+
+- Open *Makefile*;
+
+- Goto line 40, change or add the target platform;
+
+- Open command line
+
+  ```bash
+   cd {PATH}/clash-core
+   make
+  ```
+
+- Packages are in folder *{PATH}/clash-core/bin/*
+
+## Using
+
+- The configuration file would be created after clash first started.
+
+- Configuration file loaction:
+
+  - Windows: *C:\\Users\\{username\}\\.config\\clash\\config.yaml*
+
+  - Linux: ~/.config/clash/config.yaml
+
+### Ubuntu
+
+- https://dev.to/jysperm/setup-clash-redir-proxy-on-a-linux-router-4jnh
+
+  
+
 ## Documentation
 
-You can find the latest documentation at [https://dreamacro.github.io/clash/](https://dreamacro.github.io/clash/).
+- [简介](docs/zh_CN/index.md)
+
+- [编译安装](docs/zh_CN/introduction/getting-started.md)
+- [Clash 服务运行](docs/zh_CN/introduction/service.md)
+- [配置文件说明](docs/zh_CN/configuration/getting-started.md)
+  - [参考配置](docs/zh_CN/configuration/configuration-reference.md)
 
 ## Credits
 
