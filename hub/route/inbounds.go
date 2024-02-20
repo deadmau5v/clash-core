@@ -3,9 +3,9 @@ package route
 import (
 	"net/http"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/listener"
-	"github.com/Dreamacro/clash/tunnel"
+	C "github.com/pfugwtg/clash-core/constant"
+	"github.com/pfugwtg/clash-core/listener"
+	"github.com/pfugwtg/clash-core/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

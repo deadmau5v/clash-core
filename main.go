@@ -9,11 +9,11 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/Dreamacro/clash/config"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/log"
+	"github.com/pfugwtg/clash-core/config"
+	C "github.com/pfugwtg/clash-core/constant"
+	"github.com/pfugwtg/clash-core/hub"
+	"github.com/pfugwtg/clash-core/hub/executor"
+	"github.com/pfugwtg/clash-core/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

@@ -1,4 +1,4 @@
-module github.com/Dreamacro/clash
+module github.com/pfugwtg/clash-core
 
 go 1.21
 

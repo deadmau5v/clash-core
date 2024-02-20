@@ -8,8 +8,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/pfugwtg/clash-core/component/dialer"
+	"github.com/pfugwtg/clash-core/component/resolver"
 
 	D "github.com/miekg/dns"
 )

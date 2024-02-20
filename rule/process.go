@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/pfugwtg/clash-core/constant"
 )
 
 // Implements C.Rule

@@ -3,12 +3,12 @@ package socks
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/common/sockopt"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/pfugwtg/clash-core/adapter/inbound"
+	"github.com/pfugwtg/clash-core/common/pool"
+	"github.com/pfugwtg/clash-core/common/sockopt"
+	C "github.com/pfugwtg/clash-core/constant"
+	"github.com/pfugwtg/clash-core/log"
+	"github.com/pfugwtg/clash-core/transport/socks5"
 )
 
 type UDPListener struct {

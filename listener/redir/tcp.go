@@ -3,8 +3,8 @@ package redir
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/pfugwtg/clash-core/adapter/inbound"
+	C "github.com/pfugwtg/clash-core/constant"
 )
 
 type Listener struct {

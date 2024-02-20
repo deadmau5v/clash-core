@@ -7,9 +7,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/transport/shadowsocks/shadowaead"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/pfugwtg/clash-core/common/pool"
+	"github.com/pfugwtg/clash-core/transport/shadowsocks/shadowaead"
+	"github.com/pfugwtg/clash-core/transport/socks5"
 )
 
 const (

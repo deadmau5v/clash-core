@@ -48,7 +48,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
           push: true
-          tags: 'dreamacro/clash:dev,ghcr.io/dreamacro/clash:dev'
+          tags: 'pfugwtg/clash-core:dev,ghcr.io/pfugwtg/clash-core:dev'
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
@@ -60,10 +60,10 @@ jobs:
           script: |
             const ref = context.payload.ref.replace(/\/?refs\/tags\//, '')
             const tags = [
-              'dreamacro/clash:latest',
-              `dreamacro/clash:${ref}`,
-              'ghcr.io/dreamacro/clash:latest',
-              `ghcr.io/dreamacro/clash:${ref}`
+              'pfugwtg/clash-core:latest',
+              `pfugwtg/clash-core:${ref}`,
+              'ghcr.io/pfugwtg/clash-core:latest',
+              `ghcr.io/pfugwtg/clash-core:${ref}`
             ]
             return tags.join(',')
           result-encoding: string
