@@ -73,6 +73,56 @@ This is a general overview of the features that comes with Clash.
 
 - https://dev.to/jysperm/setup-clash-redir-proxy-on-a-linux-router-4jnh
 
+#### 使用说明
+
+- config.yaml 文件内容可通过 Clash for Windows 等客户端获取，步骤：
+
+  - 点击 “Profiles”
+  - 选中配置文件，右键，选择 “Edit” 或 “Edit externally”
+  - 全选复制文件内容
+  - 粘贴到 config.yaml
+
+- clash 运行起来后，可能还是无法使用，需要设置代理：
+
+  - 开启（永久生效则将代码放入 ~/.profile 末尾）：
+    - export http_proxy=http://127.0.0.1:7890
+    - export https_proxy=http://127.0.0.1:7890
+  - 关闭：
+    - unset http_proxy
+    - unset https_proxy
+
+- 设置代理方式：
+
+  - 新建文件 proxy_set：
+
+    ```bash
+    # !/bin/bash
+    
+    # 开启终端代理
+    cat > /etc/profile.d/proxy.sh << EOF
+    #!/bin/bash
+    export http_proxy=http://127.0.0.1:7890
+    export https_proxy=http://127.0.0.1:7890
+    EOF
+    
+    source /etc/profile.d/proxy.sh
+    ```
+
+  - 新建文件 proxy_unset：
+
+    ```bash
+    # !/bin/bash
+    
+    rm -rf /etc/profile.d/proxy.sh
+    unset http_proxy
+    unset https_proxy
+    ```
+
+  - 使用方法：
+
+    - 开启代理：`. ./proxy_set`
+    - 关闭代理：`. ./proxy_unset`
+
   
 
 ## Documentation
