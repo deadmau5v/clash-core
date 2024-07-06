@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/pfugwtg/clash-core/adapter"
-	"github.com/pfugwtg/clash-core/adapter/outbound"
-	"github.com/pfugwtg/clash-core/common/singledo"
-	C "github.com/pfugwtg/clash-core/constant"
-	types "github.com/pfugwtg/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/adapter"
+	"github.com/deadmau5v/clash-core/adapter/outbound"
+	"github.com/deadmau5v/clash-core/common/singledo"
+	C "github.com/deadmau5v/clash-core/constant"
+	types "github.com/deadmau5v/clash-core/constant/provider"
 
 	regexp "github.com/dlclark/regexp2"
 	"github.com/samber/lo"

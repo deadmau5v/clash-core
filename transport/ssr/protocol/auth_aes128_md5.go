@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/pfugwtg/clash-core/transport/ssr/tools"
+import "github.com/deadmau5v/clash-core/transport/ssr/tools"
 
 func init() {
 	register("auth_aes128_md5", newAuthAES128MD5, 9)

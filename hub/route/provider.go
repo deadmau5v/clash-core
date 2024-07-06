@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/constant/provider"
-	"github.com/pfugwtg/clash-core/tunnel"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pfugwtg/clash-core/component/dialer"
-	"github.com/pfugwtg/clash-core/component/resolver"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/gun"
-	"github.com/pfugwtg/clash-core/transport/socks5"
-	"github.com/pfugwtg/clash-core/transport/vmess"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	"github.com/deadmau5v/clash-core/component/resolver"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/gun"
+	"github.com/deadmau5v/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/transport/vmess"
 
 	"golang.org/x/net/http2"
 )

@@ -9,11 +9,11 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/pfugwtg/clash-core/config"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/hub"
-	"github.com/pfugwtg/clash-core/hub/executor"
-	"github.com/pfugwtg/clash-core/log"
+	"github.com/deadmau5v/clash-core/config"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/hub"
+	"github.com/deadmau5v/clash-core/hub/executor"
+	"github.com/deadmau5v/clash-core/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

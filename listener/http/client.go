@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pfugwtg/clash-core/adapter/inbound"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/adapter/inbound"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 )
 
 func newClient(source net.Addr, originTarget net.Addr, in chan<- C.ConnContext) *http.Client {

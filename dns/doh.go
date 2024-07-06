@@ -10,8 +10,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/pfugwtg/clash-core/component/dialer"
-	"github.com/pfugwtg/clash-core/component/resolver"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	"github.com/deadmau5v/clash-core/component/resolver"
 
 	D "github.com/miekg/dns"
 )

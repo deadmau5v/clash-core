@@ -2,7 +2,7 @@ NAME=clash
 BINDIR=bin
 VERSION=$(shell git describe --tags || echo "unknown version")
 BUILDTIME=$(shell date -u)
-GOBUILD=CGO_ENABLED=0 go build -trimpath -ldflags '-X "pfugwtg/clash-core/constant.Version=$(VERSION)" \
+GOBUILD=CGO_ENABLED=0 go build -buildvcs=false -trimpath -ldflags '-X "pfugwtg/clash-core/constant.Version=$(VERSION)" \
 		-X "pfugwtg/clash-core/constant.BuildTime=$(BUILDTIME)" \
 		-w -s -buildid='
 
@@ -37,7 +37,7 @@ WINDOWS_ARCH_LIST = \
 	windows-arm64 \
 	windows-armv7
 
-all: linux-amd64 darwin-amd64 windows-amd64 # Most used
+all: linux-amd64 # Most used
 
 darwin-amd64:
 	GOARCH=amd64 GOOS=darwin $(GOBUILD) -o $(BINDIR)/$(NAME)-$@

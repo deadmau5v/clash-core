@@ -1,7 +1,7 @@
 FROM --platform=${BUILDPLATFORM} golang:alpine as builder
 
 RUN apk add --no-cache make git ca-certificates tzdata && \
-    wget -O /Country.mmdb https://github.com/Dreamacro/maxmind-geoip/releases/latest/download/Country.mmdb
+    wget -O /Country.mmdb https://cdn1.d5v.cc/CDN/File/GeoLite2-Country.mmdb
 WORKDIR /workdir
 COPY --from=tonistiigi/xx:golang / /
 ARG TARGETOS TARGETARCH TARGETVARIANT
@@ -13,7 +13,7 @@ RUN --mount=target=. \
     mv /clash* /clash
 
 FROM alpine:latest
-LABEL org.opencontainers.image.source="https://github.com/pfugwtg/clash-core"
+LABEL org.opencontainers.image.source="https://github.com/deadmau5v/clash-core"
 
 COPY --from=builder /usr/share/zoneinfo /usr/share/zoneinfo
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/

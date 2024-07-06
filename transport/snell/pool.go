@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/pfugwtg/clash-core/component/pool"
-	"github.com/pfugwtg/clash-core/transport/shadowsocks/shadowaead"
+	"github.com/deadmau5v/clash-core/component/pool"
+	"github.com/deadmau5v/clash-core/transport/shadowsocks/shadowaead"
 )
 
 type Pool struct {

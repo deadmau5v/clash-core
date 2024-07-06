@@ -11,6 +11,6 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/pfugwtg/clash-core)
+      - prefix(github.com/deadmau5v/clash-core)
   staticcheck:
     go: '1.21'

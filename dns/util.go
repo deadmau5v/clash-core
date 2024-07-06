@@ -8,8 +8,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/pfugwtg/clash-core/common/cache"
-	"github.com/pfugwtg/clash-core/common/picker"
+	"github.com/deadmau5v/clash-core/common/cache"
+	"github.com/deadmau5v/clash-core/common/picker"
 
 	D "github.com/miekg/dns"
 	"github.com/samber/lo"

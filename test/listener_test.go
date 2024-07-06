@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/listener"
-	"github.com/pfugwtg/clash-core/tunnel"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/listener"
+	"github.com/deadmau5v/clash-core/tunnel"
 
 	"github.com/stretchr/testify/require"
 )

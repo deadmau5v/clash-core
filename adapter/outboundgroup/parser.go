@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pfugwtg/clash-core/adapter/outbound"
-	"github.com/pfugwtg/clash-core/adapter/provider"
-	"github.com/pfugwtg/clash-core/common/structure"
-	C "github.com/pfugwtg/clash-core/constant"
-	types "github.com/pfugwtg/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/adapter/outbound"
+	"github.com/deadmau5v/clash-core/adapter/provider"
+	"github.com/deadmau5v/clash-core/common/structure"
+	C "github.com/deadmau5v/clash-core/constant"
+	types "github.com/deadmau5v/clash-core/constant/provider"
 
 	regexp "github.com/dlclark/regexp2"
 )

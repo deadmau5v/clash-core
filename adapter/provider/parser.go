@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pfugwtg/clash-core/common/structure"
-	C "github.com/pfugwtg/clash-core/constant"
-	types "github.com/pfugwtg/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/common/structure"
+	C "github.com/deadmau5v/clash-core/constant"
+	types "github.com/deadmau5v/clash-core/constant/provider"
 )
 
 var (

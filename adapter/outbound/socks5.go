@@ -10,9 +10,9 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/pfugwtg/clash-core/component/dialer"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 )
 
 type Socks5 struct {

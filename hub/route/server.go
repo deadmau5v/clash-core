@@ -10,9 +10,9 @@ import (
 	"time"
 	"unsafe"
 
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/log"
-	"github.com/pfugwtg/clash-core/tunnel/statistic"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/log"
+	"github.com/deadmau5v/clash-core/tunnel/statistic"
 
 	"github.com/Dreamacro/protobytes"
 	"github.com/go-chi/chi/v5"

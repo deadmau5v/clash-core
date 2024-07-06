@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/pfugwtg/clash-core/component/dialer"
-	types "github.com/pfugwtg/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	types "github.com/deadmau5v/clash-core/constant/provider"
 )
 
 type FileVehicle struct {

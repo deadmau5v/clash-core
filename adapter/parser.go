@@ -3,9 +3,9 @@ package adapter
 import (
 	"fmt"
 
-	"github.com/pfugwtg/clash-core/adapter/outbound"
-	"github.com/pfugwtg/clash-core/common/structure"
-	C "github.com/pfugwtg/clash-core/constant"
+	"github.com/deadmau5v/clash-core/adapter/outbound"
+	"github.com/deadmau5v/clash-core/common/structure"
+	C "github.com/deadmau5v/clash-core/constant"
 )
 
 func ParseProxy(mapping map[string]any) (C.Proxy, error) {

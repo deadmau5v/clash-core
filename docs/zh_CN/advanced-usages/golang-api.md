@@ -18,9 +18,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/pfugwtg/clash-core/adapter/outbound"
-	"github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/listener/socks"
+	"github.com/deadmau5v/clash-core/adapter/outbound"
+	"github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/listener/socks"
 )
 
 func main() {

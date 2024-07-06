@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"sync"
 
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/socks5"
-	"github.com/pfugwtg/clash-core/transport/vmess"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/transport/vmess"
 
 	"github.com/Dreamacro/protobytes"
 )

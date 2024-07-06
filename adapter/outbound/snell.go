@@ -6,11 +6,11 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/pfugwtg/clash-core/common/structure"
-	"github.com/pfugwtg/clash-core/component/dialer"
-	C "github.com/pfugwtg/clash-core/constant"
-	obfs "github.com/pfugwtg/clash-core/transport/simple-obfs"
-	"github.com/pfugwtg/clash-core/transport/snell"
+	"github.com/deadmau5v/clash-core/common/structure"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	C "github.com/deadmau5v/clash-core/constant"
+	obfs "github.com/deadmau5v/clash-core/transport/simple-obfs"
+	"github.com/deadmau5v/clash-core/transport/snell"
 )
 
 type Snell struct {

@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/pfugwtg/clash-core/constant"
+	"github.com/deadmau5v/clash-core/constant"
 )
 
 // Vehicle Type

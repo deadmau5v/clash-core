@@ -4,12 +4,12 @@ import (
 	"io"
 	"net"
 
-	"github.com/pfugwtg/clash-core/adapter/inbound"
-	N "github.com/pfugwtg/clash-core/common/net"
-	C "github.com/pfugwtg/clash-core/constant"
-	authStore "github.com/pfugwtg/clash-core/listener/auth"
-	"github.com/pfugwtg/clash-core/transport/socks4"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/adapter/inbound"
+	N "github.com/deadmau5v/clash-core/common/net"
+	C "github.com/deadmau5v/clash-core/constant"
+	authStore "github.com/deadmau5v/clash-core/listener/auth"
+	"github.com/deadmau5v/clash-core/transport/socks4"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 )
 
 type Listener struct {

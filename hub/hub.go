@@ -1,9 +1,9 @@
 package hub
 
 import (
-	"github.com/pfugwtg/clash-core/config"
-	"github.com/pfugwtg/clash-core/hub/executor"
-	"github.com/pfugwtg/clash-core/hub/route"
+	"github.com/deadmau5v/clash-core/config"
+	"github.com/deadmau5v/clash-core/hub/executor"
+	"github.com/deadmau5v/clash-core/hub/route"
 )
 
 type Option func(*config.Config)

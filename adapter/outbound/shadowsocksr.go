@@ -6,13 +6,13 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/pfugwtg/clash-core/component/dialer"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/shadowsocks/core"
-	"github.com/pfugwtg/clash-core/transport/shadowsocks/shadowaead"
-	"github.com/pfugwtg/clash-core/transport/shadowsocks/shadowstream"
-	"github.com/pfugwtg/clash-core/transport/ssr/obfs"
-	"github.com/pfugwtg/clash-core/transport/ssr/protocol"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/shadowsocks/core"
+	"github.com/deadmau5v/clash-core/transport/shadowsocks/shadowaead"
+	"github.com/deadmau5v/clash-core/transport/shadowsocks/shadowstream"
+	"github.com/deadmau5v/clash-core/transport/ssr/obfs"
+	"github.com/deadmau5v/clash-core/transport/ssr/protocol"
 )
 
 type ShadowSocksR struct {
@@ -94,7 +94,7 @@ func (ssr *ShadowSocksR) ListenPacketContext(ctx context.Context, metadata *C.Me
 
 func NewShadowSocksR(option ShadowSocksROption) (*ShadowSocksR, error) {
 	// SSR protocol compatibility
-	// https://github.com/pfugwtg/clash-core/pull/2056
+	// https://github.com/deadmau5v/clash-core/pull/2056
 	if option.Cipher == "none" {
 		option.Cipher = "dummy"
 	}

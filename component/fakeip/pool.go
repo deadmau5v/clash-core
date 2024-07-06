@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pfugwtg/clash-core/common/cache"
-	"github.com/pfugwtg/clash-core/component/profile/cachefile"
-	"github.com/pfugwtg/clash-core/component/trie"
+	"github.com/deadmau5v/clash-core/common/cache"
+	"github.com/deadmau5v/clash-core/component/profile/cachefile"
+	"github.com/deadmau5v/clash-core/component/trie"
 )
 
 type store interface {

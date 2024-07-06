@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	C "github.com/pfugwtg/clash-core/constant"
+	C "github.com/deadmau5v/clash-core/constant"
 )
 
 type PortType int

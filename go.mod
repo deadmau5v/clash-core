@@ -1,4 +1,4 @@
-module github.com/pfugwtg/clash-core
+module github.com/deadmau5v/clash-core
 
 go 1.21
 

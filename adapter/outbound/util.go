@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/pfugwtg/clash-core/component/resolver"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/component/resolver"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 
 	"github.com/Dreamacro/protobytes"
 )

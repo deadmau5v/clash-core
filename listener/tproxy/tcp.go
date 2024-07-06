@@ -3,9 +3,9 @@ package tproxy
 import (
 	"net"
 
-	"github.com/pfugwtg/clash-core/adapter/inbound"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/adapter/inbound"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 )
 
 type Listener struct {

@@ -3,13 +3,13 @@ package mixed
 import (
 	"net"
 
-	"github.com/pfugwtg/clash-core/common/cache"
-	N "github.com/pfugwtg/clash-core/common/net"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/listener/http"
-	"github.com/pfugwtg/clash-core/listener/socks"
-	"github.com/pfugwtg/clash-core/transport/socks4"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/common/cache"
+	N "github.com/deadmau5v/clash-core/common/net"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/listener/http"
+	"github.com/deadmau5v/clash-core/listener/socks"
+	"github.com/deadmau5v/clash-core/transport/socks4"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 )
 
 type Listener struct {

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net"
 
-	"github.com/pfugwtg/clash-core/common/sockopt"
-	"github.com/pfugwtg/clash-core/context"
-	"github.com/pfugwtg/clash-core/log"
+	"github.com/deadmau5v/clash-core/common/sockopt"
+	"github.com/deadmau5v/clash-core/context"
+	"github.com/deadmau5v/clash-core/log"
 
 	D "github.com/miekg/dns"
 )

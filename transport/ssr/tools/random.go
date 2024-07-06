@@ -3,7 +3,7 @@ package tools
 import (
 	"encoding/binary"
 
-	"github.com/pfugwtg/clash-core/common/pool"
+	"github.com/deadmau5v/clash-core/common/pool"
 )
 
 // XorShift128Plus - a pseudorandom number generator

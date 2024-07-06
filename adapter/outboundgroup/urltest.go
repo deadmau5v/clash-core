@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/pfugwtg/clash-core/adapter/outbound"
-	"github.com/pfugwtg/clash-core/common/singledo"
-	"github.com/pfugwtg/clash-core/component/dialer"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/adapter/outbound"
+	"github.com/deadmau5v/clash-core/common/singledo"
+	"github.com/deadmau5v/clash-core/component/dialer"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/constant/provider"
 )
 
 type urlTestOption func(*URLTest)

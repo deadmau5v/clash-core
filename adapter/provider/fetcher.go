@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	types "github.com/pfugwtg/clash-core/constant/provider"
-	"github.com/pfugwtg/clash-core/log"
+	types "github.com/deadmau5v/clash-core/constant/provider"
+	"github.com/deadmau5v/clash-core/log"
 )
 
 var (

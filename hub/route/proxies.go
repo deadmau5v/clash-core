@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pfugwtg/clash-core/adapter"
-	"github.com/pfugwtg/clash-core/adapter/outboundgroup"
-	"github.com/pfugwtg/clash-core/component/profile/cachefile"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/tunnel"
+	"github.com/deadmau5v/clash-core/adapter"
+	"github.com/deadmau5v/clash-core/adapter/outboundgroup"
+	"github.com/deadmau5v/clash-core/component/profile/cachefile"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

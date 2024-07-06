@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/pfugwtg/clash-core/adapter/inbound"
-	"github.com/pfugwtg/clash-core/common/pool"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/transport/socks5"
+	"github.com/deadmau5v/clash-core/adapter/inbound"
+	"github.com/deadmau5v/clash-core/common/pool"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/transport/socks5"
 )
 
 type PacketConn struct {

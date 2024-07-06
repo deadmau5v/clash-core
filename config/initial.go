@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/pfugwtg/clash-core/component/mmdb"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/log"
+	"github.com/deadmau5v/clash-core/component/mmdb"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/log"
 )
 
 func downloadMMDB(path string) (err error) {
-	resp, err := http.Get("https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb")
+	resp, err := http.Get("https://cdn1.d5v.cc/CDN/File/GeoLite2-Country.mmdb")
 	if err != nil {
 		return
 	}

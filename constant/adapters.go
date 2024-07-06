@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/pfugwtg/clash-core/component/dialer"
+	"github.com/deadmau5v/clash-core/component/dialer"
 )
 
 // Adapter Type

@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pfugwtg/clash-core/common/cache"
-	"github.com/pfugwtg/clash-core/component/fakeip"
-	"github.com/pfugwtg/clash-core/component/trie"
-	C "github.com/pfugwtg/clash-core/constant"
-	"github.com/pfugwtg/clash-core/context"
-	"github.com/pfugwtg/clash-core/log"
+	"github.com/deadmau5v/clash-core/common/cache"
+	"github.com/deadmau5v/clash-core/component/fakeip"
+	"github.com/deadmau5v/clash-core/component/trie"
+	C "github.com/deadmau5v/clash-core/constant"
+	"github.com/deadmau5v/clash-core/context"
+	"github.com/deadmau5v/clash-core/log"
 
 	D "github.com/miekg/dns"
 )

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pfugwtg/clash-core/component/dhcp"
-	"github.com/pfugwtg/clash-core/component/iface"
-	"github.com/pfugwtg/clash-core/component/resolver"
+	"github.com/deadmau5v/clash-core/component/dhcp"
+	"github.com/deadmau5v/clash-core/component/iface"
+	"github.com/deadmau5v/clash-core/component/resolver"
 
 	D "github.com/miekg/dns"
 )

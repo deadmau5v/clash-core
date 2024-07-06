@@ -27,11 +27,11 @@ export default defineConfig({
     sidebar: chapters,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/pfugwtg/clash-core' },
+      { icon: 'github', link: 'https://github.com/deadmau5v/clash-core' },
     ],
 
     editLink: {
-      pattern: 'https://github.com/pfugwtg/clash-core/edit/master/docs/:path',
+      pattern: 'https://github.com/deadmau5v/clash-core/edit/master/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
@@ -50,8 +50,8 @@ function nav() {
     {
       text: 'Download',
       items: [
-        { text: 'Open-source Edition', link: 'https://github.com/pfugwtg/clash-core/releases/' },
-        { text: 'Premium Edition', link: 'https://github.com/pfugwtg/clash-core/releases/tag/premium' },
+        { text: 'Open-source Edition', link: 'https://github.com/deadmau5v/clash-core/releases/' },
+        { text: 'Premium Edition', link: 'https://github.com/deadmau5v/clash-core/releases/tag/premium' },
       ]
     }
   ]
